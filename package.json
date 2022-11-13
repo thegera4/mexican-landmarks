@@ -4,7 +4,7 @@
   "description": "REST-API for mexican landmarks",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon -L",
+    "start": "node index.js",
     "test": "mocha -w ./tests/**/*.spec.js"
   },
   "author": "Juan Gerardo Medellin Ibarra",
