@@ -1,4 +1,3 @@
-const axios = require("axios");
 const { Landmark } = require("../db");
 
 const getLandmarks = async () => {
@@ -9,7 +8,6 @@ const getLandmarks = async () => {
     console.error(error);
   }
 };
-
 
 module.exports = {
   getLandmarks,

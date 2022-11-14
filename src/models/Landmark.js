@@ -24,10 +24,10 @@ module.exports = (sequelize) => {
       allowNull: true,
       defaultValue: null,
     },
-    image: {
-      type: DataTypes.STRING(1234),
+    images: {
+      type: DataTypes.ARRAY(DataTypes.STRING(1234)),
       allowNull: true,
-      defaultValue: null
+      defaultValue: null,
     },
     description: {
       type: DataTypes.STRING(1234),
